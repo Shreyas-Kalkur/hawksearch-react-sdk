@@ -7,6 +7,13 @@ export class Request {
 	 */
 	public ClientGuid: string;
 
+	
+	public RequestType?: string;
+
+
+	public ImageData?: string;
+
+
 	/**
 	 * Search term entered by a user. If keyword is not included, all items configured to be returned will be
 	 * returned. When this parameter is populated, the results will be matched against this term by the search
