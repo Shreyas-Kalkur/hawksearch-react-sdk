@@ -23,6 +23,8 @@ function SearchBox({ SuggestionList }: SearchBoxProps) {
 			actor.setSearch({
 				PageId: undefined,
 				CustomUrl: undefined,
+				RequestType: 'ImageSearch',
+				
 				Keyword: encodeURIComponent(event.currentTarget.value),
 				FacetSelections: undefined,
 				IgnoreSpellcheck: false,
